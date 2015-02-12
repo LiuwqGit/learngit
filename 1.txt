@@ -4,3 +4,5 @@
 	你可以在数据库看下哪个表的数据多一些，先执行哪一句能够过滤掉更多的数据，然后分步执行这些sql语句。。。
 3:
 	可以看看表间联合查询的字段有没有索引，如果有索引的话应该会快些
+4: git is  a distributed version control system.
+5: git is free software
