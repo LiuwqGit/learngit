@@ -6,4 +6,10 @@ ds
 sj
 
 This is 11:29.
+<<<<<<< HEAD
 now time is 2015-03-03 09:49:01
+=======
+
+time is it now 2015-03-03 09:56:59
+i like this.2015-03-03 10:02:45.
+>>>>>>> dev
