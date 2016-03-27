@@ -252,6 +252,7 @@ origin git@github.com:LiuwqGit/learngit.git (push)
 >$ git clone -o jQuery https://github.com/jquery/jquery.git  
 >$ git remote
 jQuery  
+
 上面命令表示，克隆的时候，指定远程主机叫做jQuery。
 
 ## git push ##
