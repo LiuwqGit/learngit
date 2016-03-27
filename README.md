@@ -221,7 +221,7 @@ Git鼓励大量使用分支：
 切换分支
 >$ git checkout master
 
-
+push
 
 
 
