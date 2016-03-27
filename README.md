@@ -221,12 +221,46 @@ Git鼓励大量使用分支：
 切换分支
 >$ git checkout master
 
-push
 
 
 
 
- 
+# Git 阮一峰教程 #
+## git clone ##
+>$ git clone http[s]://example.com/path/to/repo.git/  
+>$ git clone ssh://example.com/path/to/repo.git/  
+>$ git clone git://example.com/path/to/repo.git/  
+>$ git clone /opt/git/project.git   
+>$ git clone file:///opt/git/project.git  
+>$ git clone ftp[s]://example.com/path/to/repo.git/  
+>$ git clone rsync://example.com/path/to/repo.git/  
+>$ git clone git@github.com:LiuwqGit/learngit.git  
+
+## git remote ##
+
+为了便于管理，Git要求每个远程主机都必须指定一个主机名。`git remote`命令就用于管理主机名。  
+不带选项的时候，`git remote`命令列出所有远程主机。
+>$ git remote  
+origin
+
+使用`-v`选项，可以参看远程主机的网址。
+>$ git remote -v  
+origin git@github.com:LiuwqGit/learngit.git (fetch)  
+origin git@github.com:LiuwqGit/learngit.git (push)  
+
+克隆版本库的时候，所使用的远程主机自动被Git命名为`origin`
+>$ git clone -o jQuery https://github.com/jquery/jquery.git  
+>$ git remote
+jQuery  
+
+上面命令表示，克隆的时候，指定远程主机叫做jQuery。
+
+## git push ##
+`git push`命令用于将本地分支的更新，推送到远程主机。它的格式与`git pull`命令相仿。  
+>$ git push <远程主机名> <本地分支名>:<远程分支名>
+
+注意，分支推送顺序的写法是<来源地>:<目的地>，所以`git pull`是<远程分支>:<本地分支>，而`git push`是<本地分支>:<远程分支>。
+
 # **廖雪峰 Git 教程学习记录** #
 
 
