@@ -269,10 +269,13 @@ jQuery
 >$ git push origin :master  
 > 等同于  
 >$ git push origin --delete master  
-上面命令表示删除origin主机的master分支。
+上面命令表示删除`origin`主机的`master`分支。
 
 如果当前分支与远程分支之间存在追踪关系，则本地分支和远程分支都可以省略。
->$ git push origin
+>$ git push origin  
+
+如果当前分支与多个主机存在追踪关系，则可以使用`-u`选项指定一个默认主机，这样后面就可以不加任何参数使用`git push`。  
+>$ git push -u origin master  
 
 # **廖雪峰 Git 教程学习记录** #
 
