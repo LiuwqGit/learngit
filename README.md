@@ -265,6 +265,14 @@ jQuery
 >$ git push origin master  
 上面命令表示，将本地的`master`分支推送到`origin`主机的`master`分支。如果后者不存在，则会被新建。
 
+如果省略本地分支名，则表示删除指定的远程分支，因为这等同于推送一个空的本地分支到远程分支。
+>$ git push origin :master  
+> 等同于  
+>$ git push origin --delete master  
+上面命令表示删除origin主机的master分支。
+
+如果当前分支与远程分支之间存在追踪关系，则本地分支和远程分支都可以省略。
+>$ git push origin
 
 # **廖雪峰 Git 教程学习记录** #
 
