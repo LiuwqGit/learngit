@@ -251,7 +251,7 @@ origin git@github.com:LiuwqGit/learngit.git (push)
 克隆版本库的时候，所使用的远程主机自动被Git命名为`origin`
 >$ git clone -o jQuery https://github.com/jquery/jquery.git  
 >$ git remote
-jQuery
+jQuery  
 上面命令表示，克隆的时候，指定远程主机叫做jQuery。
 
 ## git push ##
